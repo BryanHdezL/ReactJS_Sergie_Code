@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body,
+html {
+  background-color: black;
+  color: white;
+  padding: 1%;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 15px 0;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2.0;
+}
+
+button{
+  padding: 5px 15px;
+  font-weight: 900;
+  font-weight: 22px;
+}
+
+.botones{
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item{
+  margin-left: 50px;
+}
